@@ -1,0 +1,8 @@
+{
+  "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "nxCloudAccessToken": "MDM3MTg0NjMtZjkxMS00ZGM3LWI1ZGQtM2Q5NTIwNzU5MjllfHJlYWQ=",
+  "plugins": ["@monodon/rust"],
+  "release": {
+    "projects": ["packages/*", "crates/*"]
+  }
+}

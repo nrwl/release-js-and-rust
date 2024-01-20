@@ -1,0 +1,11 @@
+{
+  "name": "@jameshenry/release-example",
+  "version": "0.0.1",
+  "author": "James Henry",
+  "description": "Only exists to demonstrate multi-language nx release, usage",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf dist && mkdir dist && cp src/index.js dist/index.js"
+  }
+}

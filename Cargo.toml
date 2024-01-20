@@ -1,0 +1,3 @@
+[workspace]
+members = ['crates/jimbo', "crates/private-lib", "crates/public-lib"]
+resolver = "2"

@@ -1,0 +1,8 @@
+{
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "targets": {
+    "build": {
+      "command": "cargo build -p public-lib --target-dir crates/public-lib/target --release"
+    }
+  }
+}
